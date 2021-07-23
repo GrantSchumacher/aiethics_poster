@@ -1,0 +1,107 @@
+
+$primary:  #FAC8BE;
+$secondary: #224149;
+$text-color: #FFFFFF;
+$font-family-primary: Times, serif;
+$font-family-secondary: 'Menlo', sans-serif;
+$h1: 4.5em;
+$h2: 1.1em;
+$h3: .75em;
+$h4: .5em;
+$h5: 6px;
+
+.poster-page{
+    width: 35em;
+    height: 50em;
+    font-family: $font-family-primary;
+    position: absolute;
+}
+.poster-text{
+    margin-left: 1em;
+}
+
+
+.background-primary{
+    background-color: $primary
+}
+.background-secondary{
+    background-color: $secondary;
+}
+
+.poster-fill-top{
+    height: 30%;
+}
+.poster-fill-bottom{
+    height: 70%;
+}
+
+.h1{
+    font-size: $h1;
+    color: $text-color;
+    font-family: $font-family-primary;
+}
+.h2{
+    font-size: $h2;
+    font-family: $font-family-secondary;
+    color: $text-color;
+} 
+.h3{
+    font-size: $h3;
+    font-family: $font-family-secondary;
+    color: $text-color
+}
+.h4{
+    font-size: $h4;
+    font-family: $font-family-secondary;
+    color: $text-color;
+    
+}
+.h5{
+    font-size: $h5;
+    font-family: $font-family-secondary;
+    color: $text-color;
+}
+.txt-uppercase{
+    text-transform: uppercase;
+}
+.z-top{
+    z-index: 10;
+    position: absolute;
+}
+
+.robot-img{
+    width: 12em;
+    height: auto;
+}
+
+.bottom{
+    bottom: 0;
+}
+.absolute{
+    position: absolute;
+}
+
+.underline{
+    border: 1px white;
+    border-style: none none solid none;
+}
+.red-line{
+    z-index: -1; 
+    position: absolute;
+    width: 4em; 
+    height: auto;
+}
+.red-x{
+    z-index: -1; 
+    position: absolute;
+    width: 6em; 
+    height: auto;
+    right: 11.5rem;
+    top: 4em;
+}
+
+.ion-side-txt{
+    width: 90%; 
+    height: auto;
+}
+

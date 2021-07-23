@@ -1,0 +1,105 @@
+.poster-page {
+  width: 35em;
+  height: 50em;
+  font-family: Times, serif;
+  position: absolute;
+}
+
+.poster-text {
+  margin-left: 1em;
+}
+
+.background-primary {
+  background-color: #FAC8BE;
+}
+
+.background-secondary {
+  background-color: #224149;
+}
+
+.poster-fill-top {
+  height: 30%;
+}
+
+.poster-fill-bottom {
+  height: 70%;
+}
+
+.h1 {
+  font-size: 4.5em;
+  color: #FFFFFF;
+  font-family: Times, serif;
+}
+
+.h2 {
+  font-size: 1.1em;
+  font-family: "Menlo", sans-serif;
+  color: #FFFFFF;
+}
+
+.h3 {
+  font-size: 0.75em;
+  font-family: "Menlo", sans-serif;
+  color: #FFFFFF;
+}
+
+.h4 {
+  font-size: 0.5em;
+  font-family: "Menlo", sans-serif;
+  color: #FFFFFF;
+}
+
+.h5 {
+  font-size: 6px;
+  font-family: "Menlo", sans-serif;
+  color: #FFFFFF;
+}
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.z-top {
+  z-index: 10;
+  position: absolute;
+}
+
+.robot-img {
+  width: 12em;
+  height: auto;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.underline {
+  border: 1px white;
+  border-style: none none solid none;
+}
+
+.red-line {
+  z-index: -1;
+  position: absolute;
+  width: 4em;
+  height: auto;
+}
+
+.red-x {
+  z-index: -1;
+  position: absolute;
+  width: 6em;
+  height: auto;
+  right: 11.5rem;
+  top: 4em;
+}
+
+.ion-side-txt {
+  width: 90%;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */

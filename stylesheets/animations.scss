@@ -1,0 +1,51 @@
+.rect1{
+    transform-origin: 50%;
+    animation: rect1 2s ease forwards;
+}
+
+.rect2{
+  
+    opacity: 0;
+    animation: rect2 2s ease forwards;
+   
+}
+.rect3{
+    opacity: 0;
+    animation: rect2 2s 2s ease forwards;
+}
+
+.time{
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+      visibility: hidden;
+    }
+  }
+  
+@keyframes rect1 {
+    0% {height: 0; }
+    100% { height: 204.03; }
+  } 
+ 
+ 
+  @keyframes rect2 {
+    0% {
+        width: 0; 
+        opacity: 100;
+    }
+    100% { 
+        width: 204.03; 
+        opacity: 100;
+    }
+  }
+
+  @keyframes slow-rotate{
+      0%{
+
+      }
+      100%{
+          transform: rotate(360deg);
+      }
+  }

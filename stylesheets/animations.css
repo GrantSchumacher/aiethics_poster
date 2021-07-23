@@ -1,0 +1,94 @@
+.rect1 {
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-animation: rect1 2s ease forwards;
+          animation: rect1 2s ease forwards;
+}
+
+.rect2 {
+  opacity: 0;
+  -webkit-animation: rect2 2s ease forwards;
+          animation: rect2 2s ease forwards;
+}
+
+.rect3 {
+  opacity: 0;
+  -webkit-animation: rect2 2s 2s ease forwards;
+          animation: rect2 2s 2s ease forwards;
+}
+
+.time {
+  -webkit-animation: blink 1s step-start infinite;
+          animation: blink 1s step-start infinite;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {
+  50% {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes rect1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 204.03;
+  }
+}
+
+@keyframes rect1 {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 204.03;
+  }
+}
+
+@-webkit-keyframes rect2 {
+  0% {
+    width: 0;
+    opacity: 100;
+  }
+  100% {
+    width: 204.03;
+    opacity: 100;
+  }
+}
+
+@keyframes rect2 {
+  0% {
+    width: 0;
+    opacity: 100;
+  }
+  100% {
+    width: 204.03;
+    opacity: 100;
+  }
+}
+
+@-webkit-keyframes slow-rotate {
+  0% {
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes slow-rotate {
+  0% {
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=animations.css.map */
